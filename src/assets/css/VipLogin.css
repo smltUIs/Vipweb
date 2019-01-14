@@ -1,0 +1,185 @@
+@charset "utf-8";
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:"微软雅黑";
+    background: #f3f4f5;
+}
+img{
+    display: block;
+    border:none;
+}
+input{
+    outline:none;
+    border:none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size:26.67vw;
+}
+/*.VipLogin-header*/
+.VipLogin-header{
+    width: 100%;
+    height: 0.45rem;
+    background: url(../../../static/image/VipLogin-jiantou.png) no-repeat #fff;
+    background-size: 0.3rem 0.3rem;
+    background-position: 0.08rem;
+    line-height: 0.45rem;
+}
+.VipLogin-header-h2{
+    font-size: 0.18rem;
+    font-weight: 300;
+    text-align: center;
+}
+/*Register-center*/
+.VipLogin-center{
+    width: 100%;
+    height: 2.4rem;
+    margin-top: 0.15rem;
+}
+.VipLogin-center-01{
+    width: 100%;
+    /*height: 0.5rem;*/
+    background: #ffffff;
+    float:right;
+    line-height: 0.5rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+.VipLogin-center-01 label{
+    font-size:0.16rem;
+    color:#5e5e5e;
+    float: left;
+    padding-left: 0.15rem;
+}
+.VipLogin-center-mobile{
+    float: left;
+    background-color: #fff!important;
+    border: none;
+    color: #222;
+    padding: 0 0.28rem;
+  font-size: .14rem;
+}
+.VipLogin-center-02{
+    width: 100%;
+    /*height: 0.5rem;*/
+    background: #ffffff;
+    float: right;
+    line-height: 0.5rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+.VipLogin-center-02 label{
+    font-size:0.16rem;
+    color:#5e5e5e;
+    float: left;
+    padding-left: 0.15rem;
+}
+.VipLogin-center-authcode{
+    float: left;
+    background-color: #fff!important;
+    border: none;
+    color: #222;
+    font-size: .14rem;
+    padding: 0 0.28rem;
+}
+.VipLogin-center-authcode-buttom{
+    width: 1.05rem;
+    height: 0.5rem;
+    font-size: 0.16rem;
+    color: #222;
+    float: left;
+    background: #ffffff;
+    border: none;
+}
+
+.VipLogin-center-02-show{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url(../../../static/image/VipLogin-show.png) no-repeat 50%;
+    background-size: 50% auto;
+    position: absolute;
+    top: 1.1rem;
+    right: 0;
+}
+.VipLogin-center-03{
+    width: 100%;
+    height: 1.4rem;
+    float: left;
+    /*background:darkorange;*/
+}
+.VipLogin-center-submit{
+    font-size: 0.16rem;
+    color: #cac9ce;
+    background: #e0e0e1;
+    border-radius: 3px;
+    float: left;
+    padding: 0.16rem 1.6rem;
+    margin: 0.32rem 0 0.12rem 0.1rem;
+}
+.VipLogin-center-03-tips{
+    font-size: 0.16rem;
+    color: #98989f;
+    margin-top: 0.12rem;
+    float: right;
+    margin-right: 0.06rem;
+}
+.VipLogin-center-03-tips a{
+    color: #157efa;
+}
+.VipLogin-center-03-mlogin{
+    margin-right: 0.02rem;
+    margin-left: -0.1rem;
+    width: 0.22rem;
+    height: 0.22rem;
+    background: url(../../../static/image/VipRegisterBut.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%;
+}
+.VipLogin-center-03-mlogin-pitch-on{
+    background-position: 0 -22px;
+}
+/*Register-footer*/
+.VipLogin-footer{
+    width: 100%;
+    height: 0.95rem;
+}
+.VipLogin-footer-01{
+    position: relative;
+    height: 1.2rem;
+    text-align: center;
+    clear: both;
+    color: #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    border-right: 0;
+    font-size: 0.12rem;
+    border-left: 0;
+    border-bottom: 0;
+}
+.VipLogin-footer-01 legend{
+    color:#e0dddd;
+    font-size: 0.12rem;
+    padding: 0 0.1rem;
+}
+.VipLogin-footer-login{
+    height: 0.36rem;
+    line-height: 0.36rem;
+    padding: 0 0.14rem;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid #e4007f;
+    color: #e4007f;
+    text-decoration: none;
+    margin: 0.13rem auto;
+    font-size: 0.14rem;
+}

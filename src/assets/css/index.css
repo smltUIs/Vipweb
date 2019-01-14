@@ -1,0 +1,232 @@
+
+.index-content{
+    width: 100%;
+    -webkit-flex:1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.index-content::-webkit-scrollbar{
+  width: 1px;
+}
+/*index-banner*/
+.index-banner{
+    width: 100%;
+    margin-top: .01rem;
+    display: flex;
+    flex-direction: column;
+}
+.index-banner img{
+    width: 100%;
+    height: 1.5rem;
+}
+.index-banner-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fff;
+    box-sizing: border-box;
+}
+.index-banner-menu li{
+    width: .79rem;
+    height: .84rem;
+    margin-right: -.05rem;
+    box-sizing: border-box;
+}
+.index-banner-menu li a img{
+    width: .75rem;
+    height: .84rem;
+}
+/*唯品快抢*/
+.index-fast-sell{
+    width: 100%;
+    height: 2.07rem;
+    background: url("../../../static/image/index-fast-mail.png") left top no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.index-timeSpan{
+    margin-top: .42rem;
+}
+.index-timeSpan p{
+    font-size:.13rem;
+    color: #3d3c43;
+}
+em{
+    font-style: normal;
+}
+.index-timeSpan p span{
+    display: inline-block;
+    width: .14rem;
+    height: .14rem;
+    line-height: .14rem;
+    background: #000000;
+    font-size: .06rem;
+    color: #fff;
+    text-align: center;
+    margin-top: .01rem;
+}
+.index-goodsList{
+    width: 100%;
+    display: flex;
+    margin-left: .2rem;
+    margin-top: .1rem;
+}
+.index-goodsList li{
+    width: .9rem;
+    height: 1.24rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.index-goodsList li a img{
+    width: .82rem;
+    height: .82rem;
+}
+.index-goodsPrice{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: .07rem;
+}
+.index-fast-span{
+    height: .15rem;
+    line-height: .15rem;
+    background: #de3991;
+    color: #ffffff;
+    font-size: .05rem;
+    display: inline-block;
+    text-align: center;
+    margin-right: .05rem;
+    padding: 0 .05rem;
+}
+.index-fast-price{
+    display: inline-block;
+    color: #00000a;
+    font-size: .1rem;
+}
+.index-fast-oddPrice{
+    color: #98969d;
+    font-size: .1rem;
+}
+/*最后疯抢*/
+.index-end-sell{
+    width: 100%;
+    background: url("../../../static/image/index-hot-end.jpg") left top no-repeat;
+    background-size: 100% 100%;
+}
+.index-end-sell ul{
+    padding: .7rem .12rem .12rem .08rem;
+    display: flex;
+    box-sizing: border-box;
+}
+.index-end-sell ul li{
+    margin-right: .09rem;
+}
+.index-end-sell ul li:last-child{
+    margin-right: 0;
+}
+.index-end-sell ul li a{
+    display: flex;
+    width: 1.13rem;
+    height: 1.45rem;
+    flex-direction: column;
+    position: relative;
+}
+.index-end-sell ul li a img{
+    width: 100%;
+    height: 100%;
+}
+.index-end-sell ul li a .index-shadow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: .79rem;
+    left: .3rem;
+}
+.index-end-sell ul li a .index-shadow img{
+    width: .6rem;
+    height: .3rem;
+}
+.index-end-sell ul li a .index-shadow .discount{
+    color: #fe5e8f;
+    font-size: .13rem;
+}
+/*今日特卖*/
+.index-hot-sale {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.index-hot-sale h2{
+    font-size: .16rem;
+    color: #2f2f2f;
+    margin-top: .2rem;
+    margin-bottom: .22rem;
+}
+.index-hot-sale ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.index-hot-sale ul li{
+    width: 3.5rem;
+    height: 2.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-radius: 10px;
+    border: 1px solid #eaebed;
+    margin-bottom: .13rem;
+}
+.index-hot-sale ul li a img{
+    width: 100%;
+    height: 1.68rem;
+    border-top-left-radius: .1rem;
+    border-top-right-radius: .1rem;
+}
+.index-hot-sale .index-hot-info{
+    width: 100%;
+    height: .65rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: .1rem;
+    border-bottom-right-radius: .1rem;
+}
+.index-hot-sale .index-hot-info .index-hot-title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: .14rem;
+}
+.index-hot-sale .index-hot-info .index-hot-title p{
+    color: #211912;
+    font-size: .14rem;
+    margin: .17rem 0 .1rem 0;
+    font-weight: 600;
+}
+.index-hot-sale .index-hot-info .index-hot-title small{
+    color: #aeb8c6;
+    font-size: .12rem;
+    margin-top: .17rem;
+    margin-right: .11rem;
+}
+.index-hot-sale .index-hot-info .index-hot-detail{
+    color: #87898e;
+    font-size: .12rem;
+    margin-left: .14rem;
+    margin-bottom: .1rem;
+}
+.index-hot-sale .index-hot-info .index-hot-detail span{
+    color: #e358a5;
+}
+.index-hot-sale .index-hot-info .index-hot-detail small{
+    color: #6a7079;
+}

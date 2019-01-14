@@ -1,0 +1,90 @@
+/*轮播图*/
+.m-container{
+    width: 100%;
+}
+.m-container-swiper{
+    width: 100%;
+    height: 1.48rem;
+    border-top: 1px solid #d4cac9;
+}
+.m-container-swiper .mom-swiper .swiper-slide img{
+    width: 100%;
+    height: 1.48rem;
+}
+.swiper-pagination{
+    position: relative;
+}
+.swiper-pagination-bullet{
+    width: .08rem;
+    height: .08rem;
+    position: absolute;
+    bottom: .1rem;
+    right: .1rem;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets span{
+    background: #000!important;
+}
+.mom-menu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+.mom-menu-top{
+    width: 100%;
+    height: .8rem;
+    background: url("../image/mom-menu1.png") left top no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+.mom-menu-bot{
+    width: 100%;
+    height: .8rem;
+    background: url("../image/mom-menu2.png") left top no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+.mom-menu-top img,.mom-menu-bot img{
+    width: 20%;
+}
+.mom-menu p{
+    color:#101219;
+    font-size: .16rem;
+    margin: .25rem 0 .05rem .67rem;
+}
+.mom-imgInfo{
+    width: 100%;
+    margin-top: .1rem;
+}
+.mom-imgInfo-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mom-imgInfo-list img{
+    width: 100%;
+    height: 2.11rem;
+}
+.mom-imgInfo-list .mom-detailInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: .55rem;
+    background: #fff;
+    margin-bottom: .1rem;
+}
+.mom-imgInfo-list .mom-detailInfo p{
+    width: 2.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: .1rem 0 0 .12rem;
+    color:#101219;
+    font-size: .14rem;
+    font-weight: 600;
+}
+.mom-imgInfo-list .mom-detailInfo small{
+    color: #a8a8ad;
+    font-size: .12rem;
+    margin:.12rem .12rem 0 0;
+}

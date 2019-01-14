@@ -1,0 +1,194 @@
+@charset "utf-8";
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+*{
+    padding:0;
+    margin:0;
+}
+/*html,body{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+body{
+    font-family:"微软雅黑";
+    /*display:flex;*/
+    /*flex-direction: column;*/
+    /*height:100%;*/
+}
+img{
+    display: block;
+    border:none;
+}
+input{
+    outline:none;
+    border:none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size:26.67vw;
+}
+
+/*Register-header*/
+.Register-header{
+    width: 100%;
+    height: 1.7rem;
+    background: url(../../../static/image/VipRegisterHeaderBac.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;        /* 垂直居中 */
+    justify-content: center;    /* 水平居中 */
+}
+.Register-header-01{
+    width: 1.32rem;
+    height:0.64rem;
+    background: url(../../../static/image/VipRegisterLogo.png) no-repeat;
+    background-size:1.3rem 0.6rem;
+}
+.Register-header-02{
+    width: 0.22rem;
+    height: 0.22rem;
+    background: url(../../../static/image/VipRegisterOff.png) no-repeat;
+    background-size: 0.2rem 0.2rem;
+    position: relative;
+    left: 2.2rem;
+    top: -0.42rem;
+}
+/*Register-center*/
+.Register-center{
+    width: 100%;
+    height: 2.4rem;
+    /*background: slateblue;*/
+}
+.Register-center-01{
+    width: 98%;
+    /*height: 0.5rem;*/
+    background: #ffffff;
+    float:right;
+    line-height: 0.5rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+.Register-center-01 label{
+    font-size:0.16rem;
+    color:#5e5e5e;
+    float: left;
+}
+.Register-center-mobile{
+    float: left;
+    background-color: #fff!important;
+    border: none;
+    color: #222;
+    padding: 0 0.28rem;
+}
+.Register-center-02{
+    width: 98%;
+    /*height: 0.5rem;*/
+    background: #ffffff;
+    float: right;
+    line-height: 0.5rem;
+    border-bottom: 1px solid #e7e7e7;
+}
+.Register-center-02 label{
+    font-size:0.16rem;
+    color:#5e5e5e;
+    float: left;
+}
+.Register-center-authcode{
+    float: left;
+    background-color: #fff!important;
+    border: none;
+    color: #222;
+    padding: 0 0.28rem;
+    border-right: 1px solid #e7e7e7;
+}
+.Register-center-authcode-buttom{
+    width: 1.05rem;
+    height: 0.5rem;
+    font-size: 0.16rem;
+    dcolor: #4a90e2;
+    float: left;
+    background: #ffffff;
+    border: none;
+    outline: 0;
+}
+.Register-center-03{
+    width: 100%;
+    height: 1.4rem;
+    float: left;
+    /*background:darkorange;*/
+}
+.Register-center-submit{
+    font-size: 0.16rem;
+    color: #fff;
+    background: #de3d96;
+    border-radius: 3px;
+    float: left;
+    padding: 0.16rem 1.2rem;
+    margin: 0.32rem 0 0.12rem 0.1rem;
+}
+.Register-center-03-tips{
+    font-size: 0.12px;
+    color: #98989f;
+    width: 3.43rem;
+    margin-top: 0.12rem;
+    padding-left: 0.24rem;
+    letter-spacing: .02rem;
+}
+.Register-center-03-tips a{
+    color: #157efa;
+}
+.Register-center-03-mlogin{
+    margin-right: 0.02rem;
+    margin-left: -0.1rem;
+    width: 0.22rem;
+    height: 0.22rem;
+    background: url(../../../static/image/VipRegisterBut.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%;
+}
+.Register-center-03-mlogin-pitch-on{
+    background-position: 0 -22px;
+}
+/*Register-footer*/
+.Register-footer{
+    width: 100%;
+    height: 0.95rem;
+    /*background: lightcoral;*/
+    margin-top: 0.36rem;
+}
+.Register-footer-01{
+    position: relative;
+    height: 1.2rem;
+    text-align: center;
+    clear: both;
+    color: #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    border-right: 0;
+    font-size: 0.12rem;
+    border-left: 0;
+    border-bottom: 0;
+}
+.Register-footer-01 legend{
+    color:#ededed;
+    font-size: 0.12rem;
+    padding: 0 0.1rem;
+}
+.Register-footer-login{
+    height: 0.36rem;
+    line-height: 0.36rem;
+    padding: 0 0.14rem;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid #e4007f;
+    color: #e4007f;
+    text-decoration: none;
+    margin: 0.13rem auto;
+    font-size: 0.14rem;
+}

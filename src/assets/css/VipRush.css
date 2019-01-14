@@ -1,0 +1,431 @@
+@charset "utf-8";
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,td,input,select,option,textarea{
+    margin:0;
+    padding:0;
+}
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:"微软雅黑";
+}
+img{
+    display: block;
+    border:none;
+}
+input{
+    outline:none;
+    border:none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html{
+    font-size:26.67vw;
+}
+
+/*VipRush-header*/
+.VipRush-header{
+    width: 100%;
+    height: 0.41rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.VipRush-header-left{
+    width: 0.48rem;
+    height: 0.41rem;
+    float: left;
+    background: url(../../../static/image/VipRush-header-jiantou.png) no-repeat #fff;
+    background-size: 0.3rem 0.3rem;
+    background-position: 0.08rem;
+    line-height: 0.41rem;
+}
+.VipRush-header-center{
+    width: 1.45rem;
+    height: 0.41rem;
+    float: left;
+    line-height: 0.41rem;
+}
+.VipRush-header-center-tips{
+    width: 1.8rem;
+    height: 0.17rem;
+    color: #232323;
+    font-weight: 400;
+    font-size: 0.17rem;
+}
+.VipRush-header-right{
+    width: 0.48rem;
+    height: 0.41rem;
+    float: left;
+    background: url(../../../static/image/VipRush-header-home.png) no-repeat;
+    background-size: 0.3rem 0.3rem;
+    background-position: 0.1rem;
+}
+/*VipRush-Tabs*/
+.VipRush-Tabs{
+    width:100%;
+    height:0.45rem;
+    line-height: 0.45rem;
+    background: url(../../../static/image/VipRush-Tabs-ul-img.jpg) no-repeat #fff;
+    background-size: cover;
+}
+.VipRush-Tabs-ul{
+    width: 3.7rem;
+    height: 0.4rem;
+    margin: auto;
+    position: relative;
+    top: 0.02rem;
+}
+.VipRush-Tabs-li{
+    width: 0.72rem;
+    height: 0.4rem;
+    border-radius: 2px;
+    float: left;
+    margin-right: 0.02rem;
+    background: url(../../../static/image/VipRush-Tabs-li-img.png) no-repeat;
+    background: none;
+    background-size: 0.75rem 0.4rem;
+}
+
+.VipRush-Tabs-li:first-child{
+    width: 0.72rem;
+    height: 0.4rem;
+    background: url(../../../static/image/VipRush-Tabs-li-img.png) no-repeat;
+    background-size: 0.75rem 0.4rem;
+    float: left;
+}
+
+.VipRush-Tabs-time{
+    width: 0.52rem;
+    height: 0.15rem;
+    color: #eab7cf;
+    font-size: 0.16rem;
+    text-align: center;
+    position: relative;
+    top: -0.1rem;
+    left: 0.08rem;
+    float: left;
+}
+/*.VipRush-Tabs-time-01{*/
+  /*color: #cc4a93;*/
+/*}*/
+.VipRush-Tabs-desc{
+    color: #eab7cf;
+    font-size: 0.11rem;
+    float: left;
+}
+.VipRush-Tabs-desc-span{
+    width: 0.47rem;
+    height: 0.12rem;
+    float: left;
+    position: relative;
+    top: -0.07rem;
+    left: 0.15rem;
+}
+/*.VipRush-Tabs-desc-span:first-child{*/
+  /*color: #cc4a93;*/
+/*}*/
+.VipRush-Pic{
+    width: 100%;
+    height: 0.91rem;
+}
+.VipRush-Pic-img{
+    width: 100%;
+    height: 0.91rem;
+}
+/*VipRush-Shop-List*/
+.VipRush-Shop-List{
+    width: 100%;
+    background: #fff;
+}
+.VipRush-Shop-List-li{
+    width: 100%;
+    height: 1.5rem;
+    overflow: hidden;
+    border-bottom: 1px solid #eff0f1;
+}
+.VipRush-Shop-List-li-box{
+    width: 3.32rem;
+    height: 1.33rem;
+    margin: 0.11rem 0 0 0.26rem;
+}
+.VipRush-Shop-List-li-pic{
+    width: 1.03rem;
+    height: 1.3rem;
+    margin-right: 0.2rem;
+    float: left;
+}
+.VipRush-Shop-List-li-pic-img{
+    width: 1.03rem;
+    height: 1.3rem;
+}
+.VipRush-Shop-List-li-info{
+    width: 2.08rem;
+    height: 1.33rem;
+    float: left;
+}
+.VipRush-Shop-List-li-info-lgo{
+    width: 100%;
+    height: 0.38rem;
+}
+.VipRush-Shop-List-li-info-lgo-img{
+    width:0.6rem;
+    height:0.31rem;
+}
+.VipRush-Shop-List-li-info-ShopTitle{
+    width: 100%;
+    height: 0.25rem;
+}
+.VipRush-Shop-List-li-info-ShopTitle-tips{
+    color:#333333;
+    font-size: 0.15rem;
+}
+.VipRush-Shop-List-li-info-ShopIntroduce{
+    width: 100%;
+    height: 0.24rem;
+    line-height: 0.24rem;
+}
+.VipRush-Shop-List-li-info-ShopIntroduce-particulars{
+    color: #0a2525;
+    font-size: 0.11rem;
+    width: 1.99rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.VipRush-Shop-List-li-info-ShopSnapup{
+    width: 100%;
+    height: 0.28rem;
+    margin-top: 0.04rem;
+}
+.VipRush-Shop-List-li-info-ShopSnapup i{
+    width: 0.48rem;
+    height: 0.16rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.05rem;
+    color: #fff;
+    float: left;
+    background: url(../../../static/image/VipRush-Shop-List-li-pic-rush-01.png) 100% no-repeat;
+    background-size: cover;
+    text-indent: 0.1rem;
+}
+.VipRush-Shop-List-li-info-ShopSnapup p{
+    color:#cc4a93;
+    font-size:0.16rem;
+}
+.VipRush-Shop-List-li-info-ShopSnapup-price{
+    color:#88888f;
+    font-size:0.08rem;
+}
+.VipRush-Shop-List-li-info-ShopPlan{
+    width: 100%;
+    height: 0.14rem;
+}
+.VipRush-Shop-List-li-info-ShopPlan-progress{
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0.05rem;
+    width: 0.9rem;
+    height: 0.05rem;
+    background-color: #fff;
+    border: 1px solid #de3d96;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 0.1rem;
+    margin-top: 0.05rem;
+    float: left;
+}
+.VipRush-Shop-List-li-info-ShopPlan-progress i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #e772b2;
+    height: 100%;
+    width: 0;
+}
+.VipRush-Shop-List-li-info-ShopPlan-pms{
+    display: inline-block;
+    vertical-align: middle;
+    color: #98989f;
+    float: left;
+    font-size: 0.08rem;
+}
+.VipRush-Shop-List-li-info-ShopPlan-progress .percent{
+    /*width: 85%;*/
+}
+
+/*VipRush-footer*/
+.VipRush-footer{
+  width: 100%;
+  height: 2.84rem;
+}
+.VipRush-footer-01{
+  width: 100%;
+  height: 0.8rem;
+}
+.VipRushMore{
+  width: 100%;
+  height: 0.8rem;
+}
+.VipRush-footer-02{
+  width: 100%;
+  height: 0.61rem;
+  line-height: 0.61rem;
+  border-bottom: 1px solid #f3f4f5;
+}
+.viplog{
+  float: left;
+  margin: 0.1rem 0.1rem 0 0.15rem;
+  width: 0.43rem;
+  height: 0.43rem;
+  background: #ea4c88;
+  border-radius: .07rem;
+  font-size: .1rem;
+  color: #fff;
+  line-height: 0.43rem;
+  text-align: center;
+}
+.VipRushFooterPsp{
+  color: #222;
+  font-size: .13rem;
+}
+.download-btn{
+  margin-top: .16rem;
+  float: right;
+  color: #cf3e8e;
+  padding: 0 0.25rem;
+  height: 0.35rem;
+  line-height: .74rem;
+  border: 1px solid #cf3e8e;
+  position: relative;
+  top: -0.65rem;
+  left: -0.3rem;
+  border-radius: .053rem;
+  background-color: #f3f4f5;
+}
+.download-btn span{
+  font-size: 0.14rem;
+  color: #cf3e8e;
+  float: left;
+  position: relative;
+  top: -0.2rem;
+}
+.VipRush-footer-03{
+  width: 100%;
+  height: 0.35rem;
+  line-height: 0.35rem;
+}
+.VipRush-footer-03 a{
+  font-size: 0.13rem;
+  color: #5a5e65;
+  float: left;
+}
+.VipRush-footer-03 a:nth-child(1){
+  margin-left: 0.15rem;
+  margin-right: 0.11rem;
+}
+.VipRush-footer-03 a:nth-child(3){
+  float: right;
+  position: relative;
+  left: 0.2rem;
+}
+.VipRush-footer-03 a:nth-child(4){
+  float: right;
+  position: relative;
+  left: 1.1rem;
+}
+.VipRush-footer-04{
+  width: 100%;
+  height: 0.55rem;
+}
+.copyright{
+  font-size: 0.1rem;
+  color: #ccc;
+  text-align: center;
+  line-height: .3rem;
+  width: 3.35rem;
+  margin: 0 auto;
+}
+.VipRush-footer-05{
+  width: 100%;
+  height: 0.54rem;
+}
+.psb-sign{
+  width: 0.15rem;
+  height: 0.15rem;
+  background: url(../../../static/image/icon-police.png) no-repeat;
+  background-size: cover;
+  position: relative;
+  left: 0.999rem;
+  top: 0.19rem;
+  float: left;
+}
+.VipRush-footer-05 p{
+  float: left;
+  height: .53rem;
+  line-height: .53rem;
+  margin: 0 0 0 1.05rem;
+  color: #ccc;
+  font-size: .11rem;
+}
+
+/*3个定位元素*/
+.fnav{
+  background: #191d26f2;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 1.2rem;
+  color: #fff;
+  font-size: 0.11rem;
+  text-align: center;
+  line-height: 0.4rem;
+  position: fixed;
+  left: 0.2rem;
+  bottom: 0.8rem;
+}
+.fspan{
+  background: #191d26f2;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 1.2rem;
+  color: #fff;
+  font-size: 0.15rem;
+  text-align: center;
+  line-height: 0.4rem;
+  position: fixed;
+  left: 0.2rem;
+  bottom: 0.3rem;
+}
+.gochar{
+  color: #fff;
+  width: 0.32rem;
+  height: 0.3rem;
+  margin-top: 0.06rem;
+  margin-left: 0.04rem;
+}
+.fup{
+  background: #191d26f2;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 1.2rem;
+  color: #fff;
+  font-size: 0.15rem;
+  text-align: center;
+  line-height: 0.4rem;
+  position: fixed;
+  left: 3rem;
+  bottom: 0.3rem;
+}
+.fupdate{
+  width: 0.25rem;
+  height: 0.25rem;
+  margin-top: 0.07rem;
+  margin-left: 0.08rem;
+}
